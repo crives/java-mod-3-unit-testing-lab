@@ -33,5 +33,9 @@ class FizzBuzzTest {
         String testString4 = null;
         String test4 = fizzBuzz.fizzBuzzString(testString4);
         assertNull(test4);
+
+        String testString5 = "hello";
+        String test5 = fizzBuzz.fizzBuzzString(testString5);
+        assertEquals("hello", test5);
     }
 }
